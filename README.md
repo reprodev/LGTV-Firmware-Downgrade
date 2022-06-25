@@ -176,5 +176,5 @@ https://forum.xda-developers.com/t/how-downgrade-software-oled65cx6la.4376371/
 
 Please go ahead and follow me for more and feel free to comment on if this works for you, if you've found a way to make this process better or if there is anything in here that needs to be amended to make it flow better. I'd love to hear from anyone that has given this a try
 
-Yours technially,
+Yours technically,
 ReproDev
