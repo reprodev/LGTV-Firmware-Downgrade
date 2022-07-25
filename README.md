@@ -1,6 +1,6 @@
 # LGTV-Firmware-Downgrade
 
-This guide will help to walk you through downgrading the Software Version and also webOS to a previous version so you can root/jailbreak webOS on on an LGTV from webOS version 4 to 6.
+This guide will help to walk you through downgrading the Software Version and also webOS to a previous version so you can root/jailbreak webOS on on an LGTV from webOS version 4 to 6. **(This document has been edited as of July 25th 2022 - See Commit Changes)**
 
 This has been confirmed to work on an LG 43 Inch TV 2021 Model - LG-43UP75006LF https://www.lg.com/uk/tvs/lg-43up75006lf from Software Version 3.30.10 to 3.21.30 but should work on other LG TV models too with the relevant firmware for that TV.
 
@@ -28,14 +28,23 @@ For the background on why I even did this then please click here for the [Backgr
 
 **(DISCLAIMER)** Please make sure you get the right firmware for your TV as there will be no checks run when you go to install the file by the TV. This means you could try to install the firmware for a different TV on yours. If you're unsure check the Reference Models on the LG website as one firmware covers several TVs.
 
+## Option 1 - Go The Korean LG TV Website
+
 1. Go the Korean LG TV Website and using your model number change the end of the address so that you get to your Tv firmware page. If this works you can Skip past this section to the Methods. If this doesn't work then follow the steps below to get the correct firmware for your TV.
 2. In this example we are downgrading to 3.21.30 so go to this link https://www.lg.com/uk/support/product/lg-43UP75006LF.AEKD for the TV from the UK LG site or wherever you are based
 3. On this page scroll down to the bottom right and click on the reference link under the Software download which will open in a new window and linked here https://www.lg.com/uk/support/product/lg-43UP75006LF.AEKD#software_drivers_reference_2
 4. All of the models listed can use that firmware and so can your TV so keep a note of these somewhere as you may need them for Step 5.
 5. Go to the Korean LG TV Website Driver Support section and then translate to English. Linked here https://www.lge.co.kr/support/product-manuals?title=driver&mktModel
 6. You can then search for the TV by using the Dropdown menu on the left to select Tv/Projectors and then the type of TV you have on the right. In this example, it would be Ultra HD and then you type "43" in the search to find a model on the page in the list. One of these will match the ones listed in the reference for your firmware.
-7. Once you are on the firmware page you will have all the previous versions for your TV, if you are sure that this is the correct one for your TV based on the reference then download the zip file.
-8. **(DISCLAIMER)** Make sure this is the correct file for your TV before and correct version that you want. I would suggest you also download the latest firmware for your TV in case you need to get back to the latest firmware at a later date. Once you have these zip files downloaded make sure you have a backup of them somewhere like a Dropbox/USB Hard-drive as there is always the chance that these files will be removed at some point from the official site.
+7. In my case this was **2021 Ultra HDTV_ Nanocell_ Latest Software_UP75_82_83_NANO75_77_83KPA_LM21A_Ver.03.21.30** for the **43NANO75KPA** model which is one of the reference models and the latest Firmware I found I could use.
+8. Once you are on the firmware page you will have all the previous versions for your TV, if you are sure that this is the correct one for your TV based on the reference then download the zip file.
+9. **(DISCLAIMER)** Make sure this is the correct file for your TV before and correct version that you want. I would suggest you also download the latest firmware for your TV in case you need to get back to the latest firmware at a later date. Once you have these zip files downloaded make sure you have a backup of them somewhere like a Dropbox/USB Hard-drive as there is always the chance that these files will be removed at some point from the official site.
+
+## Option 2 - Go to the Russian LG TV Web OS Telegram Channel
+
+Go to https://t.me/lgwebosusb and find the latest exploitable firmware for your LG TV
+
+**Please Note**: I used Option 1 but if you're having trouble then Option 2 may be the best way for you as suggested by others after this was first published.
 
 You should now have the correct previous firmware for your LG TV downloaded and have it backed up so we can move onto setting up your USB thumb drive.
 
@@ -72,13 +81,13 @@ Please note it is not required for Method 1 so you can skip this section if that
 2. Translate the website to English and search the page for "webos4x-6x.expertmode.downgrade_1.0.0_all.ipk"
 3. Download the webos4x-6x.expertmode.downgrade_1.0.0_all.ipk file to your PC
 4. Go to https://forum.xda-developers.com/attachments/downgrade-launch-app_1-0-0_all-rar.5584169/?hash=f31b04de248f3fd1a0646ed9efa70b50 to download a rar file containing "downgrade.launch.app_1.0.0_all.ipk"
-4. Set up Developer Mode by following these instructions on your TV if you haven't already. During setup you will get instructions on how to connect your PC to your TV.
-5. Install the "webos4x-6x.expertmode.downgrade_1.0.0_all.ipk" ipk file using Dev Manager and it will show up at the end of the list of your Apps.
-6. Open the App and if this methods works for you then it will ask you to confirm if you want to access Expert Mode. If successful, you will be able to select the firmware file from your USB Thumb drive on the TV screen to let you install the firmware you downloaded earlier. It will take up to 10 minutes and you will get a notification telling you when it's installed and asking you to click ok to reboot.
-7. If this just goes to a black screen or just reboots back to the Home Menu or Live TV then restart the TV and uninstall "webos4x-6x.expertmode.downgrade_1.0.0_all.ipk".
-8. Install "downgrade.launch.app_1.0.0_all.ipk" using Dev Manager like before and it will show up at the end of the list of your Apps.
-9. Open the App and if this methods works for you then it will ask you to confirm if you want to open Software Update. If successful, you will be able to select the firmware file from your USB Thumb drive on the TV screen to let you install the firmware you downloaded earlier. It will take up to 10 minutes and you will get a notification telling you when it's installed and asking you to click ok to reboot.
-10. If this just goes to a black screen or just reboots back to the Home Menu or Live TV then try Method 2
+5. Set up Developer Mode by following these instructions on your TV if you haven't already. During setup you will get instructions on how to connect your PC to your TV.
+6. Install the "webos4x-6x.expertmode.downgrade_1.0.0_all.ipk" ipk file using Dev Manager and it will show up at the end of the list of your Apps.
+7. Open the App and if this methods works for you then it will ask you to confirm if you want to access Expert Mode. If successful, you will be able to select the firmware file from your USB Thumb drive on the TV screen to let you install the firmware you downloaded earlier. It will take up to 10 minutes and you will get a notification telling you when it's installed and asking you to click ok to reboot.
+8. If this just goes to a black screen or just reboots back to the Home Menu or Live TV then restart the TV and uninstall "webos4x-6x.expertmode.downgrade_1.0.0_all.ipk".
+9. Install "downgrade.launch.app_1.0.0_all.ipk" using Dev Manager like before and it will show up at the end of the list of your Apps.
+10. Open the App and if this methods works for you then it will ask you to confirm if you want to open Software Update. If successful, you will be able to select the firmware file from your USB Thumb drive on the TV screen to let you install the firmware you downloaded earlier. It will take up to 10 minutes and you will get a notification telling you when it's installed and asking you to click ok to reboot.
+11. If this just goes to a black screen or just reboots back to the Home Menu or Live TV then try Method 2
 
 # Method 3 - Send a command via the webOS TV Cli
 
@@ -128,7 +137,7 @@ It took me a few tries to get to the Software Update screen but once I got there
 
 ### How do I donate to you?
 
-For now I will be working this out to make it as easy as possible if you want to throw a few bucks my way but it may end up being GitHub Sponsors once I get it working.
+You can buy me a coffee on https://ko-fi.com/reprodev and check out my other projects too. Come say hi and let me know you came from GitHub
 
 # Background
 
