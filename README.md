@@ -2,6 +2,8 @@
 
 This guide will help to walk you through downgrading the Software Version and also webOS to a previous version so you can root/jailbreak webOS on on an LGTV from webOS version 4 to 6. **(This document has been edited as of July 25th 2022 - See Commit Changes)**
 
+<a href='https://ko-fi.com/Z8Z6E0CY0' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 This has been confirmed to work on an LG 43 Inch TV 2021 Model - LG-43UP75006LF https://www.lg.com/uk/tvs/lg-43up75006lf from Software Version 3.30.10 to 3.21.30 but should work on other LG TV models too with the relevant firmware for that TV.
 
 For the original thread on AV Forums which helped in creating this guide please go here https://www.avsforum.com/threads/guide-lg-webos-tvs-firmware-downgrade-advanced-users-only.3217168/
@@ -139,6 +141,8 @@ It took me a few tries to get to the Software Update screen but once I got there
 
 You can buy me a coffee on https://ko-fi.com/reprodev and check out my other projects too. Come say hi and let me know you came from GitHub
 
+<a href='https://ko-fi.com/Z8Z6E0CY0' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 # Background
 
 I bought the LG 43 Inch TV 2021 Model - LG-43UP75006LF from Argos in the UK for £250 on sale in June 2022 after accidentally breaking an older LG model while moving. When I first got this TV I was unaware of the Root access and modifications over at rootmy.tv and so just updated as normal.
@@ -184,6 +188,8 @@ https://forum.xda-developers.com/t/how-downgrade-software-oled65cx6la.4376371/
 # Finally!
 
 Please go ahead and follow me for more and feel free to comment on if this works for you, if you've found a way to make this process better or if there is anything in here that needs to be amended to make it flow better. I'd love to hear from anyone that has given this a try
+
+<a href='https://ko-fi.com/Z8Z6E0CY0' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 Yours technically,
 ReproDev
